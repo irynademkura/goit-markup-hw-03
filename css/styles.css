@@ -209,12 +209,16 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
   margin-top: 0;
+}
+
+.feature-list {
   display: flex;
   margin-left: auto;
   align-items: center;
+  list-style: none;
 }
 
-.feature .list .title {
+.feature-list .title {
   margin-bottom: 8px;
   color: var(--title-text-color);
   font-weight: 500;
@@ -223,27 +227,25 @@ img {
   letter-spacing: 0.02em;
 }
 
-.feature .list .text {
+.feature-list .text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.feature .list .item {
+.feature-list .item {
   margin-right: 24px;
   width: 264px;
 }
 
-.feature .list .item:last-child {
+.feature-list .item:last-child {
   margin-right: 0px;
 }
 
 /* ____ABOUT US____ */
 
 .about {
-  display: flex;
-  margin-left: auto;
   padding-bottom: 120px;
 }
 
@@ -258,15 +260,18 @@ img {
   text-align: center;
 }
 
-.about .list {
+.about-list {
+  display: flex;
+  margin-left: auto;
   margin-top: 72px;
+  list-style: none;
 }
 
-.about .list .item {
+.about-list .item {
   margin-right: 24px;
 }
 
-.about .list .item:last-child {
+.about-list .item:last-child {
   margin-right: 0px;
 }
 
@@ -276,12 +281,10 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--secondary-bg-color);
-  display: flex;
-  margin-left: auto;
-  text-align: center;
 }
 
 .team-title {
+  margin-bottom: 72px;
   text-align: center;
   font-weight: 500;
   font-size: 36px;
@@ -290,11 +293,19 @@ img {
   text-transform: capitalize;
   color: var(--title-text-color);
 }
+
+.team-list {
+  display: flex;
+  margin-left: auto;
+  text-align: center;
+  list-style: none;
+}
+
 .team-info {
   padding: 32px 16px;
 }
 
-.team .list .title {
+.team-list .title {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -303,18 +314,18 @@ img {
   color: var(--title-text-color);
 }
 
-.team .list .text {
+.team-list .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.team .list .item {
+.team-list .item {
   margin-right: 24px;
   background-color: var(--primary-white-color);
 }
 
-.team .list .item:last-child {
+.team-list .item:last-child {
   margin-right: 0px;
 }
 
