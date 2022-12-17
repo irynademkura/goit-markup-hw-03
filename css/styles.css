@@ -36,7 +36,7 @@ ul {
   padding: 0;
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -205,8 +205,6 @@ ul {
 
 /* OUR FEATURES */
 
-
-
 .feature {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -246,7 +244,7 @@ ul {
 .about {
   display: flex;
   margin-left: auto;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .about-title {
@@ -284,6 +282,7 @@ ul {
 }
 
 .team-title {
+  margin-bottom: 72px;
   text-align: center;
   font-weight: 500;
   font-size: 36px;
@@ -366,8 +365,8 @@ ul {
 /* ___FILTERS___ */
 
 .site-portfolio {
-  margin-top: 96px;
-  margin-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .filter {
@@ -419,10 +418,13 @@ ul {
 }
 
 .card-info {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
   list-style: none;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* FOOTER */
@@ -430,7 +432,6 @@ ul {
 .page-footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
   padding-right: auto;
   background-color: var(--title-text-color);
 }
